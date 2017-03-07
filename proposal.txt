@@ -1,0 +1,57 @@
+CSCB58 Project Proposal: Winter 2016
+
+Team Member A
+-------------
+First Name: 
+Last Name:
+Student Number:
+UofT E-mail Address:
+
+
+Team Member B
+-------------
+First Name: 
+Last Name:
+Student Number:
+UofT E-mail Address:
+
+Team Member C (Optional)
+-------------
+First Name: 
+Last Name:
+Student Number:
+UofT E-mail Address:
+
+Team Member D (Optional)
+-------------
+First Name: 
+Last Name:
+Student Number:
+UofT E-mail Address:
+
+
+Proposal
+--------
+
+Project Title: 
+
+Provide a 1 paragraph description of your project:
+
+What do you plan to have completed by the end of the first lab session?:
+
+What do you plan to have completed by the end of the second lab session?:
+
+What do you plan to have completed by the end of the third lab session?:
+
+What is your backup plan if things don’t work out as planned?
+
+What hardware will you need beyond the DE2 board (be sure to e-mail Brian if it’s anything beyond the basics to make sure there’s enough to go around)
+
+Motivations
+-----------
+How does this project relate to the material covered in CSCB58?:
+
+Why is this project interesting/cool (for CSCB58 students, and for non CSCB58 students?):
+
+Why did you personally choose this project?:
+
