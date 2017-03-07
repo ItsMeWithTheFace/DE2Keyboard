@@ -1,11 +1,11 @@
-CSCB58 Project Proposal: Winter 2016
+CSCB58 Project Proposal: Winter 2017
 
 Team Member A
 -------------
-First Name: 
-Last Name:
-Student Number:
-UofT E-mail Address:
+First Name: Rakin
+Last Name: Uddin
+Student Number: 1002365362
+UofT E-mail Address: rakin.uddin@mail.utoronto.ca
 
 
 Team Member B
@@ -15,14 +15,14 @@ Last Name:
 Student Number:
 UofT E-mail Address:
 
-Team Member C (Optional)
+Team Member C
 -------------
 First Name: 
 Last Name:
 Student Number:
 UofT E-mail Address:
 
-Team Member D (Optional)
+Team Member D
 -------------
 First Name: 
 Last Name:
