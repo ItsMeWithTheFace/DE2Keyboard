@@ -33,25 +33,35 @@ UofT E-mail Address:
 Proposal
 --------
 
-Project Title: 
+Project Title:
+MIDI Keyboard
 
 Provide a 1 paragraph description of your project:
+A simple MIDI keyboard which consists of an array of keys that each play a sequence of preloaded sounds when pressed. One can use switches to alternate between sets of preloaded sounds, allowing the user to string together their own sequence of sounds (the result being an EDM type of song).  
 
-What do you plan to have completed by the end of the first lab session?:
+What do you plan to have completed by the end of the first lab session?
+Have the modules created to link the array of keys to the FPGA board and receive their inputs. Be able to press these keys and have some sort of output present (at the very least have an LEDR going high, but would want to have a single note be played by each key).
 
 What do you plan to have completed by the end of the second lab session?:
+Finish incomplete work from last week (have single note be played by each key). Add modules to control which sets of sounds to play. Allow for up to 3-4 different sets of sounds, each set having different sounds.
 
 What do you plan to have completed by the end of the third lab session?:
+Develop the modules to enable a sequence of sounds to be played by one press of a key. Do this for the rest of the keys.
 
 What is your backup plan if things don’t work out as planned?
+If we are unable to complete the tasks outlined in the third week (our goal), at the very least we will have a single set of sounds that are associated with each key.
 
 What hardware will you need beyond the DE2 board (be sure to e-mail Brian if it’s anything beyond the basics to make sure there’s enough to go around)
+A 2x4 or 4x4 matrix of keys.
 
 Motivations
 -----------
 How does this project relate to the material covered in CSCB58?:
+This project emphasizes the use of Finite State Machines to alternate between the different sets of sounds. It also explores the use of clock cycles to control the output of sounds produced (by increasing/decreasing the frequency of the clock cycles to output different notes).
 
 Why is this project interesting/cool (for CSCB58 students, and for non CSCB58 students?):
 
 Why did you personally choose this project?:
+Inspired by this artist's brilliant use of a MIDI Fighter 64 (an 8x8 keyboard that plays preloaded music excerpts) to produce a dubstep/EDM style song: https://www.youtube.com/watch?v=qAeybdD5UoQ
+
 
