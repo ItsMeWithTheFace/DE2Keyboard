@@ -10,10 +10,10 @@ UofT E-mail Address: rakin.uddin@mail.utoronto.ca
 
 Team Member B
 -------------
-First Name: 
-Last Name:
-Student Number:
-UofT E-mail Address:
+First Name: Jia Yuan
+Last Name: Zheng
+Student Number: 1002639086
+UofT E-mail Address: jiayuan.zheng@mail.utoronto.ca
 
 Team Member C
 -------------
