@@ -37,28 +37,37 @@ Project Title:
 MIDI Keyboard
 
 Provide a 1 paragraph description of your project:
-A simple MIDI keyboard which consists of an array of keys that each play a sequence of preloaded sounds when pressed. One can use switches to alternate between sets of preloaded sounds, allowing the user to string together their own sequence of sounds (the result being an EDM type of song).  
+A simple MIDI keyboard which consists of a 4x2 (or 4x4) array of keys that each play a sequence of preloaded sounds when pressed. 
+One can use switches to alternate between sets of preloaded sounds, allowing the user to string together their own sequence of sounds (the result being an EDM type of song).  
 
 What do you plan to have completed by the end of the first lab session?
-Have the modules created to link the array of keys to the FPGA board and receive their inputs. Be able to press these keys and have some sort of output present (at the very least have an LEDR going high, but would want to have a single note be played by each key).
+Have the modules created to link the 4x2 (4x4) array to the FPGA board and receive their inputs. Be able to press these keys and have
+some sort of output present (at the very least have an LEDR going high, but would want to have a single note be played by each key).
+To be able to play notes we will need to create a module to divide the rate of the clock to certain frequencies that correspond to a
+note (note A would have frequency of 440 Hz, etc.)
 
 What do you plan to have completed by the end of the second lab session?:
-Finish incomplete work from last week (have single note be played by each key). Add modules to control which sets of sounds to play. Allow for up to 3-4 different sets of sounds, each set having different sounds.
+Finish incomplete work from last week (have single note be played by each key). Add modules to control which sets of sounds to play and
+assign them to the FPGA switches. Allow for up to 3-4 different sets of sounds (therefore 4+ states in our FSM), each set having
+different sounds. Our fallback for this will be to get different sets of LEDs to be outputted at least.
 
 What do you plan to have completed by the end of the third lab session?:
-Develop the modules to enable a sequence of sounds to be played by one press of a key. Do this for the rest of the keys.
+Develop the modules to enable a sequence of sounds to be played by the press of a key. Do this for the rest of the keys. We may need to
+create FSMs for each sequence (or a loop) to accomplish this.
 
 What is your backup plan if things don’t work out as planned?
-If we are unable to complete the tasks outlined in the third week (our goal), at the very least we will have a single set of sounds that are associated with each key.
+If we are unable to complete the tasks outlined in the third week (our goal), at the very least we will have a single set of sounds 
+that are associated with each key which is a trivial task.
 
 What hardware will you need beyond the DE2 board (be sure to e-mail Brian if it’s anything beyond the basics to make sure there’s enough to go around)
-A 2x4 or 4x4 matrix of keys.
+A 2x4 or 4x4 matrix of keys. Speakers as well, although we can use the computer speakers if dedicated speakers are unavailable.
 
 Motivations
 -----------
 How does this project relate to the material covered in CSCB58?:
 This project emphasizes the use of Finite State Machines to alternate between the different sets of sounds.
-It also explores the use of clock cycles to control the output of sounds produced (by increasing/decreasing the frequency of the clock cycles to output different notes).
+It also explores the use of clock cycles to control the output of sounds produced (by increasing/decreasing the frequency of the
+clock cycles to output different notes).
 
 Why is this project interesting/cool (for CSCB58 students, and for non CSCB58 students?):
 For CSCB58 students, this project showcases the audio capabilities of the hardware tools that we have been using over the semester and
