@@ -57,9 +57,14 @@ A 2x4 or 4x4 matrix of keys.
 Motivations
 -----------
 How does this project relate to the material covered in CSCB58?:
-This project emphasizes the use of Finite State Machines to alternate between the different sets of sounds. It also explores the use of clock cycles to control the output of sounds produced (by increasing/decreasing the frequency of the clock cycles to output different notes).
+This project emphasizes the use of Finite State Machines to alternate between the different sets of sounds.
+It also explores the use of clock cycles to control the output of sounds produced (by increasing/decreasing the frequency of the clock cycles to output different notes).
 
 Why is this project interesting/cool (for CSCB58 students, and for non CSCB58 students?):
+For CSCB58 students, this project showcases the audio capabilities of the hardware tools that we have been using over the semester and
+their applications.
+For non CSCB58 students, the final product will be great for personal use, by loading their own custom sounds (so long as
+they are in the correct format) and they will be able to produce custom songs of their choosing.
 
 Why did you personally choose this project?:
 Inspired by this artist's brilliant use of a MIDI Fighter 64 (an 8x8 keyboard that plays preloaded music excerpts) to produce a dubstep/EDM style song: https://www.youtube.com/watch?v=qAeybdD5UoQ
