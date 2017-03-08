@@ -76,6 +76,7 @@ For non CSCB58 students, the final product will be great for personal use, by lo
 they are in the correct format) and they will be able to produce custom songs of their choosing.
 
 Why did you personally choose this project?:
-Inspired by this artist's brilliant use of a MIDI Fighter 64 (an 8x8 keyboard that plays preloaded music excerpts) to produce a dubstep/EDM style song: https://www.youtube.com/watch?v=qAeybdD5UoQ
+Inspired by this artist's brilliant use of a MIDI Fighter 64 (an 8x8 keyboard that plays preloaded music excerpts) to produce a
+dubstep/EDM style song: https://www.youtube.com/watch?v=qAeybdD5UoQ
 
 
