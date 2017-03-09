@@ -38,7 +38,9 @@ MIDI Keyboard
 
 Provide a 1 paragraph description of your project:
 A simple MIDI keyboard which consists of a 4x2 (or 4x4) array of keys that each play a sequence of preloaded sounds when pressed. 
-One can use switches to alternate between sets of preloaded sounds, allowing the user to string together their own sequence of sounds (the result being an EDM type of song).  
+One can use switches to alternate between sets of preloaded sounds, allowing the user to string together their own sequence of sounds
+(the result being a dubstep/EDM type of song). These sequence of sounds can be anything from excerpts from popular music titles or
+general sound effects which will be outputted to a speaker.
 
 What do you plan to have completed by the end of the first lab session?
 Have the modules created to link the 4x2 (4x4) array to the FPGA board and receive their inputs. Be able to press these keys and have
@@ -65,18 +67,19 @@ A 2x4 or 4x4 matrix of keys. Speakers as well, although we can use the computer 
 Motivations
 -----------
 How does this project relate to the material covered in CSCB58?:
-This project emphasizes the use of Finite State Machines to alternate between the different sets of sounds.
-It also explores the use of clock cycles to control the output of sounds produced (by increasing/decreasing the frequency of the
+This project emphasizes the use of Finite State Machines (FSMs) to alternate between the different sets of sounds.
+It also explores the use of clock cycles to control the type of sounds produced (by increasing/decreasing the frequency of the
 clock cycles to output different notes).
 
 Why is this project interesting/cool (for CSCB58 students, and for non CSCB58 students?):
 For CSCB58 students, this project showcases the audio capabilities of the hardware tools that we have been using over the semester and
 their applications.
-For non CSCB58 students, the final product will be great for personal use, by loading their own custom sounds (so long as
-they are in the correct format) and they will be able to produce custom songs of their choosing.
+For non CSCB58 students, the final product will be great for personal use. By loading their own custom sounds (so long as
+they are in the correct format) they will be able to string together their own custom songs.
 
 Why did you personally choose this project?:
 Inspired by this artist's brilliant use of a MIDI Fighter 64 (an 8x8 keyboard that plays preloaded music excerpts) to produce a
 dubstep/EDM style song: https://www.youtube.com/watch?v=qAeybdD5UoQ
-
+Additionally, dubstep is a very popular genre in this age and we felt that developing this kind of tool would help others to easily
+produce music close to that of what mainstream artists create.
 
