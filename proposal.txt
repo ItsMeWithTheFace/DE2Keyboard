@@ -62,7 +62,7 @@ If we are unable to complete the tasks outlined in the third week (our goal), at
 that are associated with each key which is a trivial task.
 
 What hardware will you need beyond the DE2 board (be sure to e-mail Brian if it’s anything beyond the basics to make sure there’s enough to go around)
-A 2x4 or 4x4 matrix of keys. Speakers as well, although we can use the computer speakers if dedicated speakers are unavailable.
+A 4x2 or 4x4 matrix of keys. Speakers as well, although we can use the computer speakers if dedicated speakers are unavailable.
 
 Motivations
 -----------
