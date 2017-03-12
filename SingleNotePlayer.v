@@ -12,6 +12,9 @@ module SingleNotePlayer(clk, note, speaker);
         4'd1: clkdivider <= clkdivider/988; // B
         4'd2: clkdivider <= clkdivider/523; // C
         4'd3: clkdivider <= clkdivider/587; // D
+        4'd4: clkdivider <= clkdivider/659; // E
+        4'd5: clkdivider <= clkdivider/698; // F
+        4'd6: clkdivider <= clkdivider/784; // G
         default: clkdivider <= 50000000/2;  // Reset clkdivider
     endcase
     end
