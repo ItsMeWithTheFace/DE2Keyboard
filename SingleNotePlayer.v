@@ -1,27 +1,27 @@
-module SingleNotePlayer(clk, note, speaker);
+module SingleNotePlayer(clk, note, freq_out, speaker);
     input clk;
-    input [3:0] note;
+    input [2:0] note;
+	 output [18:0] freq_out = clkdivider[31:13];
     output speaker;
-    reg clkdivider = 50000000/2;
+    reg [31:0] clkdivider = 50000000/2; // Base divider
 
     // Note Table (Hz)
-    always@(note)
+    always@(posedge clk)
     begin
-    case (note[3:0])
-        4'd0: clkdivider <= clkdivider/880; // A
-        4'd1: clkdivider <= clkdivider/988; // B
-        4'd2: clkdivider <= clkdivider/523; // C
-        4'd3: clkdivider <= clkdivider/587; // D
-        4'd4: clkdivider <= clkdivider/659; // E
-        4'd5: clkdivider <= clkdivider/698; // F
-        4'd6: clkdivider <= clkdivider/784; // G
-        default: clkdivider <= 50000000/2;  // Reset clkdivider
+    case (note[2:0])
+        3'b001: clkdivider <= 50000000/880; 	// A
+        3'b010: clkdivider <= 50000000/986;     // B
+        3'b011: clkdivider <= 50000000/1046;    // C
+        3'b100: clkdivider <= 50000000/1147;    // D
+        3'b101: clkdivider <= 50000000/1318;    // E
+        3'b110: clkdivider <= 50000000/1396;    // F
+        3'b111: clkdivider <= 50000000/1566;    // G
     endcase
     end
 
-    reg [14:0] counter;
+    reg [31:0] counter;
     always @(posedge clk) if(counter==0) counter <= clkdivider-1; else counter <= counter-1;
 
     reg speaker;
-    always @(posedge clk) if((counter==0) && ~note) speaker <= ~speaker;
+    always @(posedge clk) if((counter==0) && note) speaker <= ~speaker;
 endmodule
