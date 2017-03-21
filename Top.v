@@ -12,7 +12,7 @@ module Top(CLOCK_50, SW, KEY, LEDG, LEDR, GPIO);
         .state(SW),
         .note(~KEY),
         .layer_out(LEDG),
-		.freq_out(LEDR),
+	.freq_out(LEDR),
         .speaker(GPIO)
     );
 
