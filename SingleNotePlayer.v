@@ -1,9 +1,9 @@
 module SingleNotePlayer(clk, note, freq_out, speaker);
     input clk;
     input [2:0] note;
-	 output [18:0] freq_out = clkdivider[31:13];
+    output [18:0] freq_out = clkdivider[31:13];
     output speaker;
-	reg [31:0] clkdivider; // Frequency divider
+    reg [31:0] clkdivider; // Frequency divider
 
     // Note Table (Hz)
     always@(posedge clk)
