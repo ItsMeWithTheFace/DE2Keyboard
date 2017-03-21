@@ -8,7 +8,7 @@ module Top(CLOCK_50, KEY, LEDR, GPIO);
     SingleNotePlayer player(
         .clk(CLOCK_50),
         .note(~KEY[2:0]),
-		.freq_out(LEDR[18:0]),
+	.freq_out(LEDR[18:0]),
         .speaker(GPIO)
     );
 
