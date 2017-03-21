@@ -1,7 +1,7 @@
 module Top(CLOCK_50, KEY, LEDR, GPIO);
     input CLOCK_50;
     input [2:0] KEY;
-	output [18:0] LEDR;
+    output [18:0] LEDR;
     output [7:0] GPIO;  // Speaker is connected to this
 
     // Instantiate the note player module
