@@ -7,12 +7,12 @@ module Top(CLOCK_50, SW, KEY, LEDG, LEDR, GPIO);
     output [7:0] GPIO;  // Speaker is connected to this
 
     // Instantiate the note player module
-    SingleNotePlayerLayered player(
+    Main main(
         .clk(CLOCK_50),
         .state(SW),
         .note(~KEY),
-        .layer_out(LEDG),
-	.freq_out(LEDR),
+	    .freq_out(LEDR),
+        .layer(LEDG),
         .speaker(GPIO)
     );
 
