@@ -9,7 +9,7 @@ Create a new project and add the following files to it:
   * Top_Old.v
   * SingleNotePlayerLayered.v
 
-To use a separated FSM associated with this project, use add these files to the project instead:
+To use a separated FSM associated with this project, add these files to the project instead:
   * Top.v
   * Main.v
   * FSM.v
